@@ -4,6 +4,11 @@ import MyComponents from './src/MyComponents';
 import MyFlatList from './src/MyFlatList';
 import HomeScreen from './src/HomeScreen';
 import ImageScreen from './src/ImageScreen';
+import CounterScreen from './src/CounterScreen';
+import ColorScreen from './src/ColorScreen';
+import SquareScreen from './src/SquareScreen';
+import TextScreen from './src/TextScreen';
+import BoxScreen from './src/components/BoxScreen';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
@@ -13,6 +18,11 @@ const AppNavigator = createStackNavigator(
     Details: MyFlatList,
     HomeScreen: HomeScreen,
     ImageScreen: ImageScreen,
+    CounterScreen: CounterScreen,
+    ColorScreen: ColorScreen,
+    SquareScreen: SquareScreen,
+    TextScreen: TextScreen,
+    BoxScreen: BoxScreen,
   },
   {
     initialRouteName: 'HomeScreen',
